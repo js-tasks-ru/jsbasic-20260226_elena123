@@ -1,6 +1,7 @@
 function sumSalary(salaries) {
   let result = 0;
   let keys = Object.keys(salaries); 
+  
   for (let i = 0; i < keys.length; i++) {
     let keyname = keys[i]; 
 
@@ -13,6 +14,7 @@ function sumSalary(salaries) {
     }
 
   }
+  
   return result;
 }
 
